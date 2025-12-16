@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clique no Alvo - Jogo Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-container">
+        
+        <header class="scoreboard">
+            <h1>Jogo de Velocidade</h1>
+            <p>Pontuação: <span id="score">0</span></p>
+            <p>Tempo Restante: <span id="timer">10</span>s</p>
+        </header>
+
+        <main class="game-area">
+            <div id="target" class="target"></div>
+            
+            <div id="message" class="overlay">
+                <p>Pronto para começar?</p>
+                <button id="start-button">INICIAR JOGO</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
